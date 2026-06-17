@@ -38,7 +38,7 @@ class JestsController < ApplicationController
   private
 
   def set_jest
-    # This is MUCH faster!
+    # This is MUCH faster!!
     @jest = Jest.where("id = #{params[:id]}").first
   end
 
